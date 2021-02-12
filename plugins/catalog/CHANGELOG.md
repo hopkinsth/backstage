@@ -1,5 +1,34 @@
 # @backstage/plugin-catalog
 
+## 0.3.2
+
+### Patch Changes
+
+- f10950bd2: Minor refactoring of BackstageApp.getSystemIcons to support custom registered
+  icons. Custom Icons can be added using:
+
+  ```tsx
+  import AlarmIcon from '@material-ui/icons/Alarm';
+  import MyPersonIcon from './MyPerson';
+
+  const app = createApp({
+    icons: {
+      user: MyPersonIcon // override system icon
+      alert: AlarmIcon, // Custom icon
+    },
+  });
+  ```
+
+- 914c89b13: Remove the "Move repository" menu entry from the catalog page, as it's just a placeholder.
+- 53b69236d: Migrate about card to new composability API, exporting the entity cards as `EntityAboutCard`.
+- Updated dependencies [6c4a76c59]
+- Updated dependencies [d34d26125]
+- Updated dependencies [07e226872]
+- Updated dependencies [f62e7abe5]
+  - @backstage/plugin-scaffolder@0.5.1
+  - @backstage/plugin-catalog-react@0.0.4
+  - @backstage/core@0.6.2
+
 ## 0.3.1
 
 ### Patch Changes

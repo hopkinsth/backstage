@@ -1,5 +1,15 @@
 # @backstage/techdocs-common
 
+## 0.4.1
+
+### Patch Changes
+
+- Updated dependencies [16fb1d03a]
+- Updated dependencies [491f3a0ec]
+- Updated dependencies [491f3a0ec]
+  - @backstage/backend-common@0.5.4
+  - @backstage/integration@0.5.0
+
 ## 0.4.0
 
 ### Minor Changes

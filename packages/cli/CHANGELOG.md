@@ -1,5 +1,11 @@
 # @backstage/cli
 
+## 0.6.1
+
+### Patch Changes
+
+- 9337f509d: Tweak error message in lockfile parsing to include more information.
+
 ## 0.6.0
 
 ### Minor Changes

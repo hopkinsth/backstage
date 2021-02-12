@@ -1,5 +1,16 @@
 # @backstage/plugin-scaffolder
 
+## 0.5.1
+
+### Patch Changes
+
+- 6c4a76c59: Make the `TemplateCard` conform to what material-ui recommends in their examples. This fixes the extra padding around the buttons.
+- Updated dependencies [d34d26125]
+- Updated dependencies [07e226872]
+- Updated dependencies [f62e7abe5]
+  - @backstage/plugin-catalog-react@0.0.4
+  - @backstage/core@0.6.2
+
 ## 0.5.0
 
 ### Minor Changes

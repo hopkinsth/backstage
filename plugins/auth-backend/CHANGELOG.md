@@ -1,5 +1,14 @@
 # @backstage/plugin-auth-backend
 
+## 0.3.1
+
+### Patch Changes
+
+- 3600ac3b0: Migrated the package from using moment to Luxon. #4278
+- Updated dependencies [16fb1d03a]
+- Updated dependencies [491f3a0ec]
+  - @backstage/backend-common@0.5.4
+
 ## 0.3.0
 
 ### Minor Changes
